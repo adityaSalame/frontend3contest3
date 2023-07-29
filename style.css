@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+  /* background-size: 100% 700px */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F8FAFC;
+   
+    
+    background-size: 100% 60%;
+    height:100vh;
+    background-image:url("Background(1).png") ;
+    background-repeat: no-repeat;
+    
+    background-position: bottom;
+
+   
+}
+.main{
+    margin:auto;
+    margin-top:7%;
+    width:460px;
+
+}
+input{
+    height:30px;
+    width:400px;
+    
+}
+.welcome{
+    color:#757575;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+#icon{
+    height:28px;
+}
+
+.sign-para{
+    color:#333333;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.form{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+button{
+    background-color: #5049EF;
+    font-weight: 500;
+    font-size: 20px;
+    padding:4px 4px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:400px;
+    height:7%;
+    color: white;
+}
+
+.fields{
+    color:#625BF7;
+    
+    margin:auto;
+    padding-bottom: 5%;
+    width:440px;
+    visibility: hidden;
+}
+
+.no-account{
+    text-align: center;
+}
+
